@@ -4,11 +4,8 @@ User stories:
 Add the "duration* (enterable), and a "date added" and "date completed" (both display, not entered) components.
 
 ## Display Tasks on Front Page
-- Show date added
-  - If we wanted to add due date instead of our length how would we go about doing this?
-    - Would have to be able to let user add another text that would reprsent due date
-    - How would you add mulitple fields to an input? Can you even put multiple fields
-      - Once we do have the two entries, then we can just display the date like length
+- ~~Show date added~~
+    - Just have to add date() which takes care of the current time and day added
    
 ## Create a component to display a single task in list
 - If a task is clicked, has its own page
