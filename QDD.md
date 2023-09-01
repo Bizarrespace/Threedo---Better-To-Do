@@ -4,14 +4,14 @@ User stories:
 Add the "duration* (enterable), and a "date added" and "date completed" (both display, not entered) components.
 
 ## Current progress
-- Learn about how hooks are working as well
+- Current stuck at how to make an edit button
+   - Main problem being that how would you update the tasks on the main screen, have to figure out how to pass tasks and setTasks through both the files
+   - Should work on getting another page from details page, and then work on how to pass through the variables and functions
 - https://reactnavigation.org/docs/hello-react-navigation
-- https://www.phind.com/agent?cache=cllym5ax70003mw08dynurjhb
    
 ## Create a component to display a single task in list
 - Edit button, launches another page where you can edit the task
-  - Same questions of going to another page with that task id
-  - How would you edit the task to change the text or the due date?
+  - How would you give the same navigation functionality to this page? Like you click a button and it moves you to another page
 ## "Add Task" button on Front Page, entry form on another page
 - The button should take to another page, where you could just reuse the adding logic we already have for switching pages
 - Once added you have to go back to the main page
