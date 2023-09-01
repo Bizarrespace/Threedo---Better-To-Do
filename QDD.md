@@ -4,6 +4,7 @@ User stories:
 Add the "duration* (enterable), and a "date added" and "date completed" (both display, not entered) components.
 
 ## Current progress
+https://www.phind.com/agent?cache=clm11nfwf0002jh08yvpbb14v
 - Current stuck at how to make an edit button
    - Read docs on nav
    - Main problem being that how would you update the tasks on the main screen, have to figure out how to pass tasks and setTasks through both the files
