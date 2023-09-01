@@ -5,6 +5,7 @@ Add the "duration* (enterable), and a "date added" and "date completed" (both di
 
 ## Current progress
 - Current stuck at how to make an edit button
+   - Read docs on nav
    - Main problem being that how would you update the tasks on the main screen, have to figure out how to pass tasks and setTasks through both the files
    - Should work on getting another page from details page, and then work on how to pass through the variables and functions
 - https://reactnavigation.org/docs/hello-react-navigation
