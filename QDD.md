@@ -5,27 +5,10 @@ Add the "duration* (enterable), and a "date added" and "date completed" (both di
 
 ## Current progress
 - Learn about how hooks are working as well
-- ~~Learn about react navigation and how the containers work~~
 - https://reactnavigation.org/docs/hello-react-navigation
 - https://www.phind.com/agent?cache=cllym5ax70003mw08dynurjhb
-
-## Display Tasks on Front Page
-- ~~Show date added~~
-    - Just have to add date() which takes care of the current time and day added
    
 ## Create a component to display a single task in list
-- If a task is clicked, has its own page
-  - ~~How would you make another page in react native?~~
-      - Using the navigation component, which uses a stack structure to take care of the screens 
-  - ~~How would you transition to that other page?~~
-      - On the button, when you click on it, do props.navigation.navigate to whatever screen that you want 
-  - Once you get to that page you would just render the task that you clicked
-    - ~~How would you know what task you clicked? Like how would you get the id of that task~~
-        - Pass the id and name and what it to that navigate function
-    - Once you have that id then you just render the task like the main page 
-- Page also has Done button to go back to the list of tasks
-  - ~~How would you get a button to transfer back to a page that you want~~
-      - Back button already made by the container, can change what it says 
 - Edit button, launches another page where you can edit the task
   - Same questions of going to another page with that task id
   - How would you edit the task to change the text or the due date?
