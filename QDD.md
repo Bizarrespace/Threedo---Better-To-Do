@@ -17,9 +17,12 @@ https://www.phind.com/agent?cache=clm11nfwf0002jh08yvpbb14v
 ## "Add Task" button on Front Page, entry form on another page
 - The button should take to another page, where you could just reuse the adding logic we already have for switching pages
 - Once added you have to go back to the main page
+  - Reuse the logic for setting tasks, but on a diffeernet page make
 ## "Show Completed" toggle on front page
 - Show completed tasks, incl date completed, if set
 - How would you store the tasks that have been completed?
 - Once you know how to store you just render the ones that have been completed instead of the tasks that are right now
+- Have another property in tasks that sets completed to false at first, then button to just filter all the tasks to look for completed
+  - The remove button also makes the removed property true
 ## Do a bit of styling.
 
